@@ -187,3 +187,6 @@ augroup GEF_GROUP
     autocmd BufWritePre * : call TrimWhiteSpace()
     autocmd! BufWritePost * Neomake
 augroup END
+
+" Change position of color line for Elixir files
+autocmd FileType elixir set colorcolumn=100
